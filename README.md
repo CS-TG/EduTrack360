@@ -1,5 +1,4 @@
 # EduTrack360
-<<<<<<< HEAD
 
 Student Management System is a Django web application designed to manage student records. It allows users to add, view, edit, and delete student information through a user-friendly interface.
 
@@ -113,7 +112,7 @@ Go to http://127.0.0.1:8000/ to view the application.
 
 ### Copyright and License
 
-Copyright © 2022 Bob's Programming Academy. Code released under the MIT license.
+Copyright © 2023 Tshwarelo Matinketja(http://tgmatinketja.co.za/). Code released under the MIT license.
 =======
-EduTrack360 is a Django web application designed to manage student records efficiently. It allows users to add, view, edit, and delete student information through a user-friendly interface. The project features PDF generation functionality, enabling users to generate and download a PDF document containing a list of all students.
+
 >>>>>>> 847197494aa7f69664297bb885f5f4565c64e5af
