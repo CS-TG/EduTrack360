@@ -38,9 +38,10 @@ Install the following prerequisites:
 
 ### Screenshots
 
-![App Screenshot 1](screenshots/imagecolorize.png)
-![App Screenshot 2](screenshots/imagecolorize_success.png)
-![App Screenshot 2](screenshots/imagecolorize_error.png)
+![App Screenshot 1](screenshots/edutrack360.png)
+![App Screenshot 2](screenshots/edutrack360_add_student.png)
+![App Screenshot 3](screenshots/edutrack360_pdf.png)
+![App Screenshot 3](screenshots/edutrack360_students_page.png)
 
 ### Installation
 
