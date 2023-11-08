@@ -20,7 +20,7 @@
                   <th scope="col">Last Name</th>
                   <th scope="col">Email</th>
                   <th scope="col">Field of Study</th>
-                  <th scope="col">GPA</th>
+                  <th scope="col">Average</th>
                   <th scope="col">Actions</th>
                 </tr>
               </thead>
@@ -32,7 +32,7 @@
                     <td>{{ student.last_name }}</td>
                     <td>{{ student.email }}</td>
                     <td>{{ student.field_of_study }}</td>
-                    <td>{{ student.gpa }}</td>
+                    <td>{{ student.average }}</td>
                     <td>
                       <button type="button" class="btn btn-success me-1" href="{% url 'view_student' student.id %}" data-bs-toggle="modal" data-bs-target="#myModal{{student.id}}">
                         <i class="fa-solid fa-circle-info fa-lg"></i>
@@ -57,7 +57,7 @@
                                 <li>Last Name: <strong>{{ student.last_name }}</strong></li>
                                 <li>Email: <strong>{{ student.email }}</strong></li>
                                 <li>Field of Study: <strong>{{ student.field_of_study }}</strong></li>
-                                <li>GPA: <strong>{{ student.gpa }}</strong></li>
+                                <li>Average: <strong>{{ student.average }}</strong></li>
                               </ul>
                             </div>
                             <div class="modal-footer">
@@ -105,6 +105,7 @@
                 {% endfor %}
               </tbody>
             </table>
+            <a href="{% url 'generate_pdf' %}" class="btn btn-primary">Generate PDF</a>
           </div>
         </p>
       </div>

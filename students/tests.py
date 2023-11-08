@@ -11,7 +11,7 @@ class StudentModelUnitTestCase(TestCase):
             last_name='Smith',
             email='bob.smith@test.com',
             field_of_study='Computer Science',
-            gpa=3.92
+            average=3.92
         )
 
     def test_student_model(self):

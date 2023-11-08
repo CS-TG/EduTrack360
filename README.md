@@ -1,8 +1,22 @@
-# Student Management System
+# EduTrack360
 
-This is a student management system built using **Django 4**, **HTML 5**, **CSS 3**, and **Bootstrap 5** with a **Bootswatch** theme.
+Student Management System is a Django web application designed to manage student records. It allows users to add, view, edit, and delete student information through a user-friendly interface.
 
-![plot](https://github.com/BobsProgrammingAcademy/Student-Management-System/blob/master/students/static/images/homepage.png?raw=true)
+## Features
+
+- **Add Student:** Users can add new students by providing their student number, first name, last name, email, field of study, and average GPA.
+- **View Students:** All added students are displayed in a table format, providing an overview of their information.
+- **Edit Student:** Users can edit existing student records, updating their details as needed.
+- **Delete Student:** Students can be deleted from the system, removing their information from the database.
+- **PDF Generation:** Users can generate a PDF document containing a list of all students and download it for offline reference.
+
+## Installation
+
+1. Clone the repository:
+
+
+
+![plot]()
 
 
 ## Table of Contents 
@@ -21,6 +35,12 @@ Install the following prerequisites:
 <br> This project uses **Django v4.2.4**. For Django to work, you must have a correct Python version installed on your machine. More information [here](https://django.readthedocs.io/en/stable/faq/install.html).
 2. [Visual Studio Code](https://code.visualstudio.com/download)
 
+
+### Screenshots
+
+![App Screenshot 1](screenshots/imagecolorize.png)
+![App Screenshot 2](screenshots/imagecolorize_success.png)
+![App Screenshot 2](screenshots/imagecolorize_error.png)
 
 ### Installation
 
