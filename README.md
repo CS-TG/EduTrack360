@@ -112,7 +112,7 @@ Go to http://127.0.0.1:8000/ to view the application.
 
 ### Copyright and License
 
-Copyright © 2023 Tshwarelo Matinketja(http://tgmatinketja.co.za/). Code released under the MIT license.
+Copyright © 2023 Tshwarelo Matinketja ([http://tgmatinketja.co.za/](http://tgmatinketja.co.za/)). Code released under the MIT license.
 =======
 
 >>>>>>> 847197494aa7f69664297bb885f5f4565c64e5af
